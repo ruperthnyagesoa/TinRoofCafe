@@ -1,0 +1,747 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: #666;
+}
+
+
+
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h3 {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-top: 5.40rem;
+    margin-bottom: 4.20rem;
+    border-bottom: 2px solid #898989;
+    padding-bottom: 1rem;
+    color: #323232;
+    font-size: 1.375rem;
+    font-weight: 300;
+}
+
+img {
+    width: 100%;
+}
+
+
+/***HEADER
+************************************/
+.header {
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-image: url(../img/home-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F6F5;
+}
+
+.nav__div--logo {
+    height: 40px;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-zentro {
+    text-transform: uppercase;
+    color: #444;
+    font-weight: 800;
+}
+
+.menu-icon {
+    position: absolute;
+    font-size: 1.5625rem;
+    right: 4%;
+    top: 1.4%;
+    cursor: pointer;
+    color: #666;
+}
+
+.nav__div--navbar {
+    display: none;
+    flex-direction: column;
+    border-top: 1px solid rgb(211, 211, 211);
+    display: none;
+}
+
+.visible {
+    display: flex;
+}
+
+.a--navbar {
+    text-transform: uppercase;
+    font-size: 0.6875rem;
+    letter-spacing: 1.5px;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1rem;
+    margin-bottom: 5%;
+}
+
+.h2 {
+    text-transform: uppercase;
+
+}
+
+.h1--header,
+.h2--header {
+    text-align: center;
+    color: #F6F6F5;
+}
+
+.contenedor--header {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30vh;
+    left: 20%;
+}
+
+.btn--header {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 0.715rem;
+    font-weight: 800;
+    margin-top: 10%;
+    border: 3px solid #F6F6F5;
+    color: #F6F6F5;
+    padding: 12px 30px;
+    letter-spacing: 1px;
+}
+
+
+
+
+/***SECTION-FOOD-GALLERY
+************************************/
+.div--food-gallery {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1.875rem;
+}
+
+.div--food-gallery:last-child {
+    margin-bottom: 6.25rem;
+}
+
+.contenedor--div-img {
+    width: 100%;
+}
+
+.p--food {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-top: 0.625rem;
+    margin-bottom: 0.425rem;
+    color: #494949;
+    font-size: 1.125rem;
+}
+
+.p--ingrediente {
+    text-transform: capitalize;
+    font-size: 0.875rem;
+    color: rgb(83, 83, 83);
+}
+
+/***SECTION-MENU
+************************************/
+.section--menu {
+    background-color: #F0F0F0;
+}
+
+.div--contenedor-menu {
+    width: 90%;
+}
+
+.div--menu-primero,
+.div--menu-segundo {
+    width: 100%;
+}
+
+.div--menu--food {
+    margin-bottom: 3.125rem;
+}
+
+.div--menu-segundo .div--menu--food:last-child {
+    margin-bottom: 6.25rem;
+}
+
+/***SECTION-CHEFS
+************************************/
+.div--contenedor-chefs {
+    width: 90%;
+}
+
+.contenedor--div-img-chef {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.875rem;
+}
+
+.contenedor--div-img-chef:last-child {
+    margin-bottom: 100px;
+}
+
+.p--nombre {
+    text-transform: capitalize;
+    color: #666;
+    margin-top: 1.25rem;
+    margin-bottom: 0.625rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.125rem;
+}
+
+.p--profesion {
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: .5px;
+    font-size: 1.125rem;
+    margin-bottom: 0.625rem;
+    color: #323232;
+}
+
+/***SECTION-FORM
+************************************/
+.section--form {
+    background-color: #F0F0F0;
+}
+
+.div--contenedor-form {
+    width: 90%;
+    display: flex;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+    margin-bottom: 20%;
+}
+
+.div--nommail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30%;
+}
+
+.input {
+    height: 45%;
+    color: #999999;
+    text-transform: capitalize;
+    font-size: 1rem;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+
+.textarea {
+    text-transform: capitalize;
+    color: #999999;
+    font-size: 1rem;
+    border: none;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.btn--submit {
+    width: 100%;
+    border: 2px solid #999999;
+    height: 14%;
+    border-radius: 6px;
+    color: #999999;
+    letter-spacing: 1px;
+}
+
+/***SECTION-CONTACT
+************************************/
+.section--contact {
+    background-image: url("../img/footer-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 55% 50%;
+    display: flex;
+}
+
+.div--contact {
+    width: 90%;
+    color: #F7F9F6;
+}
+
+
+
+.h3--contact {
+    color: #F7F9F6;
+    font-size: 1.125rem;
+    border-bottom: none;
+    margin-bottom: 5px;
+    letter-spacing: normal;
+    font-weight: bold;
+    margin-top: 15%;
+}
+
+.div--info {
+    color: #F7F9F6;
+    margin-bottom: 20px;
+    height: 20%;
+}
+
+.icon--phone,
+.icon--compass {
+    font-size: 0.75rem;
+    margin-right: 0.625rem;
+}
+
+.span--contact {
+    text-transform: capitalize;
+    font-size: 0.8125rem;
+    font-weight: bold;
+}
+
+.p--info {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.p--hours {
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 5%;
+    font-size: 0.8425rem;
+}
+
+.span--hours {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.div--info--social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a--social {
+    font-size: 14px;
+    background-color: #f7f9f6;
+    border-radius: 50%;
+    padding: 0.625rem 0.75rem;
+    margin-bottom: 20%;
+}
+
+/***FOOTER
+********************************/
+.footer {
+    width: 100%;
+    display: flex;
+    background-color: #343434;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p--footer {
+    color: #F7F9F6;
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 4%;
+    margin-top: 15%;
+    text-transform: uppercase;
+}
+
+.p--copy {
+    color: #F7F9F6;
+    margin-bottom: 4%;
+    font-size: 0.875rem;
+}
+
+.p--copy-2 {
+    color: #F7F9F6;
+    margin-bottom: 15%;
+    font-size: 0.875rem;
+}
+
+.sticky {
+    position: fixed;
+}
+
+/*************************************************/
+/************TABLETS MEDIDAS***********************/
+/**************************************************/
+
+@media only screen and (min-width: 767px) {
+    .nav {
+        flex-direction: row;
+        height: 12%;
+        align-items: center;
+    }
+
+
+    .logo-zentro {
+        font-size: 1.425rem;
+        letter-spacing: 3px;
+    }
+
+    .nav__div--navbar {
+        display: flex;
+        flex-direction: row;
+        flex-basis: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        border-top-color: #fff;
+    }
+
+    .a--navbar {
+        margin: 0;
+        font-size: 0.8125rem;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+
+    .h1 {
+        font-size: 1.10rem;
+        letter-spacing: 7px;
+    }
+
+    .h2 {
+        font-size: 1.875rem;
+        letter-spacing: 1px;
+    }
+
+    .h1--header,
+    .h2--header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .h1--header span,
+    .h2--header span {
+        margin-left: 10px;
+    }
+
+    .btn--header {
+        font-size: 0.875rem;
+        padding: 16px 32px;
+    }
+    /***food gallery
+    ***********************************/
+    .div--contenedor-food-gallery {
+        display: grid;
+    }
+
+    .a {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .b {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .c {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+
+    .d {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+
+    .e {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+
+    .c img {
+        height: 100%;
+    }
+    /*** SECTION MENU
+    **************************************/
+
+    .div--contenedor-menu {
+        display: grid;
+    }
+
+    .div--menu-primero {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        width: 80%;
+    }
+
+    .div--menu-segundo {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        width: 80%;
+        justify-self: flex-end;
+    }
+
+    
+    /*** SECTION CHEF
+    ******************************************/
+    .div--contenedor-chefs {
+        display: grid;
+        grid-gap: 0 4%;
+    }
+
+    .contenedor--div-img-chef {
+        height: 80%;
+    }
+
+    .div__img {
+        height: 85%;
+    }
+
+    .div__img img {
+        height: 100%;
+    }
+
+    .chef-a {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .chef-b {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+    .chef-c {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    /***SECTION FORM
+    **********************************/
+    .div--nommail {
+        flex-direction: row;
+    }
+
+    .input {
+        width: 48%;
+    }
+
+    .btn--submit {
+        width: 40%;
+        margin: 10px auto;
+        font-size: 0.875rem;
+    }
+    /***SECTION CONTACT
+    ****************************************/
+    .section--contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: start;
+    }
+
+    .div--contact {
+        margin: 40% auto;
+        align-items: space-around;
+    }
+
+    .h3--contact {
+        font-size: 1.375rem;
+    }
+
+    .contact-1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .span--contact {
+        font-size: 1rem;
+        font-weight: normal;
+    }
+
+    .contact-2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .p--hours {
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1.900rem;
+    }
+
+    .contact-3 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    .a--social {
+        font-size: 20px;
+    }
+    /***FOOTER
+    ***********************************/
+    .p--footer {
+        margin-top: 5%;
+        margin-bottom: 3%;
+        font-size: 1.5625rem;
+    }
+
+    .p--copy {
+        margin-bottom: 2%;
+        font-size: 1rem;
+    }
+
+    .p--copy-2 {
+        font-size: 1rem;
+        margin-bottom: 5%;
+    }
+
+}
+/****************************************************/
+/****************DESKTOP MEDIDAS*********************/
+/****************************************************/
+@media only screen and (min-width: 990px){
+    .btn {
+        cursor: pointer;
+    }
+    .div--contenedor-menu {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .div--menu-primero,
+    .div--menu-segundo {
+        width: 100%;
+    }
+    /***section form
+    **************************************/
+    .form {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
+    }
+    /***section contact
+    *************************************/
+
+    .div--contact {
+        width: 60%;
+    }
+    /***footer
+    *******************************************/
+
+}
+/*********************************************************/
+/*****************WIDE SCREEN 1400************************/
+/*********************************************************/
+@media only screen and (min-width: 1400px) {
+    /***section menu
+    **************************************/
+    .div--contenedor-menu {
+        width: 80%;
+        justify-content: space-around;
+    }
+
+    .div--menu-primero,
+    .div--menu-segundo {
+        width: 100%;
+    }
+
+    /***ssection form
+    *****************************************/
+    .form {
+        justify-content: space-around;
+    }
+
+    .div--nommail {
+        height: 11%;
+    }
+
+    .input {
+        height: 100%;
+        font-size: 1.2rem;
+    }
+
+    .textarea {
+        font-size: 1.2rem;
+    }
+
+    .btn--submit {
+        font-size: 1.2rem;
+    }
+
+    /***section contact
+    ********************************************/
+
+    .div--contact {
+        width: 70%;
+    }
+
+    .h3--contact {
+        font-size: 1.7rem;
+    }
+
+    .span--contact {
+        font-size: 1.4rem;
+    }
+
+    .p--info {
+        font-size: 1.2rem;
+    }
+
+    .p--hours {
+        font-size: 1.3rem;
+    }
+
+    .span--hours {
+        font-size: 1.4rem;
+    }
+
+    .a--social {
+        font-size: 1.5rem;
+    }
+
+    
+}
