@@ -14,7 +14,7 @@ Made with basic HTML, CSS and JavaScript.
 [![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/ruperthnyagesoa/TinRoofCafé/search?l=javascript)
 
 ## Sneak Peek of Home Page 🙈 :
-![jsprothumb3](Tin Roof Café screenshot.jpeg)
+![jsprothumb3](https://github.com/ruperthnyagesoa/TinRoofCafe/blob/main/Tin%20Roof%20Caf%C3%A9%20screenshot.jpeg)
 
 
 <h2>📬 Contact</h2>
