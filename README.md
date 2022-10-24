@@ -1,5 +1,5 @@
 # Tin Roof Café
-[Visit Now](https://ruperthnyagesoa.github.io/TinRoofCafé/) 🚀
+[Visit Now](https://ruperthnyagesoa.github.io/TinRoofCafe/) 🚀
 
 [![javascriptprojects](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?color=blue)](https://ruperthnyagesoa.github.io/TinRoofCafé/)&nbsp;
 [![repo-size](https://img.shields.io/github/repo-size/ruperthnyagesoa/TinRoofCafé)](https://github.com/ruperthnyagesoa/TinRoofCafé)
@@ -7,6 +7,7 @@
 ## Overview
 Tin Roof Café site is restaurant website.
 Made with basic HTML, CSS and JavaScript.
+Open for contributions
 
 ## Tech Stack
 [![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/ruperthnyagesoa/TinRoofCafé/search?l=html)&nbsp;
